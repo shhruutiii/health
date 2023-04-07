@@ -1,7 +1,8 @@
 function estimate(){
+  let count =0;
   let isYes = document.getElementById("flexRadioDefault1").checked;
 
- let count =0;
+ 
 if (isYes==true){
     count ++;
 }
